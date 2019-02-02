@@ -1,0 +1,27 @@
+.bloco{
+	font-size: 32px;
+	border: 1px solid green;
+}
+
+.inline{
+	font-size: 32px;
+	border: 1px solid red;
+}
+
+.bloco-inline{
+	font-size: 32px;
+	border: 1px solid green;
+	display: inline;
+}
+
+.inline-bloco{
+	font-size: 32px;
+	border: 1px solid red;
+	display: block;
+}
+
+.hibrido{
+	font-size: 32px;
+	border: 1px solid gray;
+	display: inline-block;
+}
