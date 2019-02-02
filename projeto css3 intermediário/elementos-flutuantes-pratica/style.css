@@ -1,0 +1,36 @@
+body{
+	background: #f4f4f4;
+}
+
+#principal{
+	width: 920px;
+	/*border: 1px solid green;*/
+}
+
+#noticiario{
+	/*border: 1px solid pink;*/
+}
+
+.noticia{
+	background: #e5e5e5;
+	padding: 5px;
+	width: 280px;
+	margin: 7px;
+	float: left;
+}
+
+#galeria{
+	/*border: 1px solid black;	*/
+}
+
+.foto{
+	float: left;
+	width: 265px;
+	background: white;
+	padding: 5px;
+	margin: 15px;
+}
+
+.clear{
+	clear: both;
+}
