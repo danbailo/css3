@@ -7,20 +7,12 @@ body{
 	/*border: 1px solid green;*/
 }
 
-#noticiario{
-	/*border: 1px solid pink;*/
-}
-
 .noticia{
 	background: #e5e5e5;
 	padding: 5px;
 	width: 280px;
 	margin: 7px;
 	float: left;
-}
-
-#galeria{
-	/*border: 1px solid black;	*/
 }
 
 .foto{
