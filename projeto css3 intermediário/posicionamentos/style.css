@@ -1,0 +1,43 @@
+body{
+	background: pink;
+}
+
+p{
+	width: 300px;
+	/*padding: 10px;*/
+	margin: 10px;
+}
+
+#container{
+	width: 800px;
+	background: #FFF;
+	margin: 10px auto;
+	border: 1px solid red;
+	position: relative; 
+	/*se eu definir a posicao do container relativo, o absolute ira considerar a posição
+	que ele ficará a partir do container pai, se eu nao definir, sera de acordo com o navegador*/
+}
+
+.relative{
+	border: 3px solid red;
+	/*top, right, bottom e left*/
+	position: relative;
+	top: 20px;
+}
+
+.absolute{
+	border: 3px solid green;
+	/*top, right, bottom e left*/
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+.fixed{
+	border: 3px solid blue;
+	/*top, right, bottom e left*/
+	position: fixed;
+	bottom: 0px;
+	right: 0px;	
+	/*usado em bate papo da web*/
+}
