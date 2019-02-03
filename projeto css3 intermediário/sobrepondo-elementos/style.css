@@ -1,0 +1,29 @@
+.conteudo1{
+	background: red;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 2;
+}
+
+.conteudo2{
+	background: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+
+}
+
+.conteudo3{
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 0;
+
+}
