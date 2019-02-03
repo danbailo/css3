@@ -1,0 +1,31 @@
+body{
+	font-size: 25px;
+}
+
+a{
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	padding: 10px;
+}
+
+/* antes de visitar o link */
+a:link{
+	color: blue;
+}
+
+/* depois de visitar o link */
+a:visited{
+	color: gray;
+}
+
+/* com o mouse sobre o link */
+a:hover{
+	color: red;
+	background: pink; 
+}
+
+/* quando clica no link */
+a:active{
+	color: orange;
+	text-decoration: underline;
+}
