@@ -1,0 +1,140 @@
+/*
+* Limpar formatações padrão
+ */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #E6E6E6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+/* 
+Layout
+ */
+
+#area-cabecalho {
+	text-align: center;
+	padding: 15px;
+	background: purple;
+
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-menu {
+	font-weight: bold;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens, #area-lateral {
+	background: white;
+}
+
+#area-postagens {
+	float: left;
+	width: 680px;
+	margin-bottom: 20px;
+
+}
+
+.postagens {
+	padding: 20px;
+}
+
+#area-lateral {
+	float: right;
+	width: 220px;
+}
+
+#rodape {
+	text-align: center;
+	padding: 10px;
+	background: gray;
+	clear: both;
+	color: white;
+}
+
+#links-lateral{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*
+Geral
+ */
+
+h1 {
+	font-size: 2.5em;
+	color: white;
+}
+
+h2 {
+	color: purple;
+}
+
+h3 {
+	font-size: 1em;
+	color: gray;
+	padding: 10px;
+	margin: 10px 10px 0px 10px;
+	background: #D3D3D3;
+	text-align: center;
+}
+
+#area-menu a:link, #area-menu a:visited {
+	color: white;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+#area-menu a:hover {
+	color: purple;
+	background: white;
+}
+
+#area-postagens a:link, #area-postagens a:visited {
+	color: purple;
+	padding: 3px;
+}
+
+#area-lateral a:link, #area-lateral a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+.titulo-lateral {
+	padding: 10px;
+	margin: 10px 10px 0px 10px;
+	background: #D3D3D3;
+	text-align: center;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #D3D3D3;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	border-bottom: 1px dotted #D3D3D3;
+	padding: 5px 10px;
+}
+
+.cinza {
+	color: gray;
+}
