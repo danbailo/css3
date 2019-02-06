@@ -4,78 +4,104 @@
 }
 
 body{
-	background-color: #CFCFCF;
+	background-color: #DCDCDC;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1em;
 }
 
-/*
-**** Layout ****
-*/
+/******
+Layout
+*******/
 
 #area-cabecalho{
+	background-color: #FF4500;
 	text-align: center;
-	background-color: #00B2EE;
 	padding: 15px;
 }
 
-#area-titulo, #area-menu{
+#area-logo,#area-menu{
 	padding: 10px;
+}
+
+/******
+Menu
+*******/
+
+#area-menu a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#area-menu a:hover{
+	color: #FF4500;
+	background-color: white;
 }
 
 #area-principal{
 	width: 920px;
-	margin: 0 auto;
-	padding: 15px;
+	margin: 0px auto;
 }
 
-#area-postagens{
-	width: 680px;
+#area-postagem{
+	width: 660px; 
 	float: left;
 }
 
-.postagem{
+.postagens{
 	background-color: white;
-	padding: 20px; 
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
-/*
-**** Menu ****
-*/
-
-#area-menu a{
+.postagens a{
+	color: #FF4500;
 	text-decoration: none;
-	color: white;
-	padding: 8px 12px;
 }
 
-#area-menu a:hover{
-	color:#00B2EE;
-	background: white;
+.postagens a:hover{
+	text-decoration: underline;
 }
 
-#area-titulo span{
-	color: #CDCDC1;
+#area-lateral{
+	width: 240px; 
+	float: right;
 }
 
-
-/*
-**** Geral ****
-*/
-
-h1{
-	color: white;
-	font-size: 2.5em
+.menu-lateral{
+	background-color: white;
+	margin-top: 15px; 
+	padding: 20px;
 }
 
-h2{
-	color: #00B2EE;
-}
+/******
+Geral
+ ******/
+ 
+ h1{
+ 	font-size: 2.5em;
+ 	color: white;
+ }
 
-.data-postagem {
+ h2{
+	color: #FF4500;
+ }
+
+ h3{
+ 	font-size: 1em;
+	color: gray;
+	padding: 5px;
+	background-color: #DCDCDC;
+ }
+
+.data-postagem{
 	font-size: 0.8em;
-	border-bottom: 1px solid #f4f4f4;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
+	border-bottom: 1px dotted #DCDCDC;
 	display: block;
 }
+
+ .cinza{
+ 	color: #DCDCDC;
+ }
