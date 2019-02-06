@@ -1,0 +1,36 @@
+/*
+Herança e Especificidade;
+
+Modelo cascata;
+tags iguais, o que está embaixo tem maior precedencia
+
+*/
+
+*{
+	color: red;
+	/*border: 1px solid red;*/
+}
+
+body{
+	/*border: 1px solid red;*/
+}
+
+#pagina p{
+	color: purple !important; /*dá mais precedencia*/
+}
+
+#pagina p{
+	color: pink;
+}
+
+h1{
+	color: green;
+}
+
+h1.azul{
+	color: blue;
+}
+
+h1#amarelo{
+	color: yellow;
+}
