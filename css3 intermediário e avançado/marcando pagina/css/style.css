@@ -1,0 +1,59 @@
+/*Barra de navegação vertical*/
+/*ul{
+	list-style-type: none;
+	margin: 0; 
+	padding: 0; 
+	border: 1px solid red;
+}
+
+ul li{
+	padding: 5px 20px;
+	background: url(../img/seta.png) no-repeat left center;
+	border: 1px solid red;
+
+}*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul a{
+	/*border: 1px solid red;*/
+	margin: 5px;
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;
+	text-decoration: none;
+	background: #f7b600 url(../img/menu.png) no-repeat left center;
+}
+
+/*a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color : #fff;
+}*/
+
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a,
+#servicos #navegacao-lateral .servicos a,
+#noticias #navegacao-lateral .noticias a,
+#contato #navegacao-lateral .contato a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color : #fff;
+}
+
+/*uma abordagem sobre como margar a pagina, interessante usar quando utilizar uma
+ linguagem de programação */
+/*a:hover, .selecionado a{
+	background: #f99200 url(../img/menu.png) no-repeat right bottom;
+	color : #fff;
+}*/
